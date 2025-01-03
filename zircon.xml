@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.mainlining.org/" name="gitlab-mainlining" />
+
+  <!-- device -->
+  <project path="device/xiaomi/zircon" name="zircon-development/android_device_xiaomi_zircon" remote="github" revision="lineage-22.1"/>
+  <project path="device/xiaomi/zircon-miuicamera" name="zircon-development/android_device_xiaomi_zircon-miuicamera" remote="github" revision="lineage-22.1"/>
+
+  <!-- hardware -->
+  <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="github" revision="lineage-22.1"/>
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-22.1"/>
+
+  <!-- kernel -->
+  <project path="kernel/xiaomi/mt6886" name="zircon-development/android_kernel_xiaomi_mt6886" remote="github" revision="lineage-22.1"/>
+  <project path="kernel/xiaomi/mt6886-modules" name="zircon-development/android_kernel_xiaomi_mt6886-modules" remote="github" revision="lineage-22.1"/>
+
+  <!-- sepolicy -->
+  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-22.1"/>
+
+  <!-- vendor -->
+  <project path="vendor/xiaomi/zircon" name="zircon-development/proprietary_vendor_xiaomi_zircon" remote="gitlab-mainlining" revision="lineage-22.1" />
+  <project path="vendor/xiaomi/zircon-firmware" name="zircon-development/proprietary_vendor_xiaomi_zircon-firmware" remote="gitlab-mainlining" revision="lineage-22.1" />
+  <project path="vendor/xiaomi/zircon-miuicamera" name="zircon-development/proprietary_vendor_xiaomi_zircon-miuicamera" remote="gitlab-mainlining" revision="lineage-22.1" />
+</manifest>
