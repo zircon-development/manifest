@@ -19,6 +19,5 @@
 
   <!-- vendor -->
   <project path="vendor/xiaomi/zircon" name="zircon-development/proprietary_vendor_xiaomi_zircon" remote="gitlab-mainlining" revision="lineage-22.1" />
-  <project path="vendor/xiaomi/zircon-firmware" name="zircon-development/proprietary_vendor_xiaomi_zircon-firmware" remote="gitlab-mainlining" revision="lineage-22.1" />
   <project path="vendor/xiaomi/zircon-miuicamera" name="zircon-development/proprietary_vendor_xiaomi_zircon-miuicamera" remote="gitlab-mainlining" revision="lineage-22.1" />
 </manifest>
