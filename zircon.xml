@@ -15,7 +15,7 @@
   <project path="kernel/xiaomi/mt6886-modules" name="zircon-development/android_kernel_xiaomi_mt6886-modules" remote="github" revision="lineage-22.1"/>
 
   <!-- sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-22.1"/>
+  <project path="device/mediatek/sepolicy_vndr" name="zircon-development/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-22.1"/>
 
   <!-- vendor -->
   <project path="vendor/xiaomi/zircon" name="zircon-development/proprietary_vendor_xiaomi_zircon" remote="gitlab-mainlining" revision="lineage-22.1" />
